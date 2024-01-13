@@ -1,0 +1,16 @@
+header {
+    background-color: teal;
+    color: aqua;
+}
+
+div {
+    background-color: brown;
+
+}
+div h1{
+    color: #fff;
+}
+footer {
+    background-color: gray;
+    color: #fff;
+}
