@@ -1,0 +1,22 @@
+#boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 25vw;
+    height: 11vw;
+    border: 1px solid gainsboro;
+}
+.box img {
+    display: flex;   
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+}

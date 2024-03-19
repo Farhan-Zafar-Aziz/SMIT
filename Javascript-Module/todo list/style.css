@@ -1,0 +1,61 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(219, 53, 47);
+    height: 100vh;
+}
+.todo {
+    box-shadow: gray;
+    text-align: center; 
+    flex-direction: column;  
+    background-color: white;
+    height: 35vw;
+    border-radius: 10px;
+    width: 30vw;
+}
+input {
+    width: 21vw;
+    padding: 9px;
+    border-radius: 5px;
+    border: 2px solid grey;
+    font-size: 16px;
+    font-weight: 540;
+}
+button {
+    padding: 9px 16px;
+    background-color: rgb(22, 122, 236);
+    color: wheat;
+    border: 2px solid grey;
+    border-radius: 5px;
+}
+.cut {
+    padding: 6px 20px;
+    background-color: rgb(233, 41, 41);
+    color: wheat;
+    border: 2px solid grey;
+    border-radius: 5px; 
+}
+#list {
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-direction: column;
+margin-right: 10px;
+}
+.lists {
+    background-color: rgb(241, 239, 236);
+    width: 26vw;
+    padding: 4px;
+    font-size: 16px;
+    border-radius: 10px;
+    margin-bottom: 8px;
+    border: 1px solid gray;
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    margin-right: 30px; 
+}
