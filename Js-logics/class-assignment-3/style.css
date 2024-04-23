@@ -1,0 +1,15 @@
+#boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+h1 {
+    text-align: center;
+}
+.box {
+    width: 13vw;
+    height: 13vw;
+    border: 1px solid gainsboro;
+    /* box-shadow: 0 0 2px gray; */
+    /* background-color: aqua; */
+}
